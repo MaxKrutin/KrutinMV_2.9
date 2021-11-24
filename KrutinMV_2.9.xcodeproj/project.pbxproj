@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		94AE8846274EBE2F00A93D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE8845274EBE2F00A93D41 /* AppDelegate.swift */; };
 		94AE8848274EBE2F00A93D41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE8847274EBE2F00A93D41 /* SceneDelegate.swift */; };
-		94AE884A274EBE2F00A93D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE8849274EBE2F00A93D41 /* ViewController.swift */; };
+		94AE884A274EBE2F00A93D41 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE8849274EBE2F00A93D41 /* AnimationViewController.swift */; };
 		94AE884D274EBE2F00A93D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AE884B274EBE2F00A93D41 /* Main.storyboard */; };
 		94AE884F274EBE3000A93D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AE884E274EBE3000A93D41 /* Assets.xcassets */; };
 		94AE8852274EBE3000A93D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AE8850274EBE3000A93D41 /* LaunchScreen.storyboard */; };
+		94AE8860274ED5D500A93D41 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE885F274ED5D500A93D41 /* DataManager.swift */; };
+		94AE8863274ED63B00A93D41 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE8862274ED63B00A93D41 /* Animation.swift */; };
+		F1743D00A71D1BF8779B4FB7 /* Pods_KrutinMV_2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C04C0C9AE05217B7BE8362D /* Pods_KrutinMV_2_9.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C04C0C9AE05217B7BE8362D /* Pods_KrutinMV_2_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KrutinMV_2_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9C23FED196C63DB4060998 /* Pods-KrutinMV_2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrutinMV_2.9.debug.xcconfig"; path = "Target Support Files/Pods-KrutinMV_2.9/Pods-KrutinMV_2.9.debug.xcconfig"; sourceTree = "<group>"; };
 		94AE8842274EBE2F00A93D41 /* KrutinMV_2.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrutinMV_2.9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AE8845274EBE2F00A93D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94AE8847274EBE2F00A93D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94AE8849274EBE2F00A93D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94AE8849274EBE2F00A93D41 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		94AE884C274EBE2F00A93D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94AE884E274EBE3000A93D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94AE8851274EBE3000A93D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94AE8853274EBE3000A93D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AE885F274ED5D500A93D41 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		94AE8862274ED63B00A93D41 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		DBB9CCD0264AB3C0194D4542 /* Pods-KrutinMV_2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrutinMV_2.9.release.xcconfig"; path = "Target Support Files/Pods-KrutinMV_2.9/Pods-KrutinMV_2.9.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1743D00A71D1BF8779B4FB7 /* Pods_KrutinMV_2_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14C3D55566189AAA18E675E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F9C23FED196C63DB4060998 /* Pods-KrutinMV_2.9.debug.xcconfig */,
+				DBB9CCD0264AB3C0194D4542 /* Pods-KrutinMV_2.9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DB7914C3206677166B66390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C04C0C9AE05217B7BE8362D /* Pods_KrutinMV_2_9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94AE8839274EBE2F00A93D41 = {
 			isa = PBXGroup;
 			children = (
 				94AE8844274EBE2F00A93D41 /* KrutinMV_2.9 */,
 				94AE8843274EBE2F00A93D41 /* Products */,
+				14C3D55566189AAA18E675E3 /* Pods */,
+				4DB7914C3206677166B66390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,65 @@
 		94AE8844274EBE2F00A93D41 /* KrutinMV_2.9 */ = {
 			isa = PBXGroup;
 			children = (
-				94AE8845274EBE2F00A93D41 /* AppDelegate.swift */,
-				94AE8847274EBE2F00A93D41 /* SceneDelegate.swift */,
-				94AE8849274EBE2F00A93D41 /* ViewController.swift */,
-				94AE884B274EBE2F00A93D41 /* Main.storyboard */,
-				94AE884E274EBE3000A93D41 /* Assets.xcassets */,
-				94AE8850274EBE3000A93D41 /* LaunchScreen.storyboard */,
-				94AE8853274EBE3000A93D41 /* Info.plist */,
+				94AE885A274ED4F100A93D41 /* App */,
+				94AE885C274ED53400A93D41 /* Storyboards */,
+				94AE885E274ED5A900A93D41 /* Services */,
+				94AE8861274ED62100A93D41 /* Models */,
+				94AE885B274ED50B00A93D41 /* ViewControllers */,
+				94AE885D274ED55400A93D41 /* Resources */,
 			);
 			path = KrutinMV_2.9;
+			sourceTree = "<group>";
+		};
+		94AE885A274ED4F100A93D41 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				94AE8845274EBE2F00A93D41 /* AppDelegate.swift */,
+				94AE8847274EBE2F00A93D41 /* SceneDelegate.swift */,
+				94AE8853274EBE3000A93D41 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		94AE885B274ED50B00A93D41 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				94AE8849274EBE2F00A93D41 /* AnimationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		94AE885C274ED53400A93D41 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				94AE884B274EBE2F00A93D41 /* Main.storyboard */,
+				94AE8850274EBE3000A93D41 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		94AE885D274ED55400A93D41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94AE884E274EBE3000A93D41 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94AE885E274ED5A900A93D41 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94AE885F274ED5D500A93D41 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94AE8861274ED62100A93D41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94AE8862274ED63B00A93D41 /* Animation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94AE8856274EBE3000A93D41 /* Build configuration list for PBXNativeTarget "KrutinMV_2.9" */;
 			buildPhases = (
+				7ACA910600DF04D823C81D28 /* [CP] Check Pods Manifest.lock */,
 				94AE883E274EBE2F00A93D41 /* Sources */,
 				94AE883F274EBE2F00A93D41 /* Frameworks */,
 				94AE8840274EBE2F00A93D41 /* Resources */,
+				FEC07A93E782364D71C58E86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +213,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ACA910600DF04D823C81D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KrutinMV_2.9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC07A93E782364D71C58E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KrutinMV_2.9/Pods-KrutinMV_2.9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KrutinMV_2.9/Pods-KrutinMV_2.9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KrutinMV_2.9/Pods-KrutinMV_2.9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94AE883E274EBE2F00A93D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94AE884A274EBE2F00A93D41 /* ViewController.swift in Sources */,
+				94AE884A274EBE2F00A93D41 /* AnimationViewController.swift in Sources */,
+				94AE8860274ED5D500A93D41 /* DataManager.swift in Sources */,
 				94AE8846274EBE2F00A93D41 /* AppDelegate.swift in Sources */,
+				94AE8863274ED63B00A93D41 /* Animation.swift in Sources */,
 				94AE8848274EBE2F00A93D41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +408,7 @@
 		};
 		94AE8857274EBE3000A93D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9C23FED196C63DB4060998 /* Pods-KrutinMV_2.9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,10 +416,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TQ7Q24JUU6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KrutinMV_2.9/Info.plist;
+				INFOPLIST_FILE = KrutinMV_2.9/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +432,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		94AE8858274EBE3000A93D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB9CCD0264AB3C0194D4542 /* Pods-KrutinMV_2.9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,10 +446,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TQ7Q24JUU6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KrutinMV_2.9/Info.plist;
+				INFOPLIST_FILE = KrutinMV_2.9/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
